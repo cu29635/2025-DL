@@ -1,5 +1,6 @@
 from iCaRL import iCaRLmodel
 from ResNet import resnet18_1
+from EWC import EWC
 import torch
 
 numclass=10
