@@ -205,11 +205,8 @@ class ResNet(nn.Module):
         return x
 
 
-def resnet18_cbam(pretrained=False, **kwargs):
-    """Constructs a ResNet-18 model.
-    Args:
-        pretrained (bool): If True, returns a model pre-trained on ImageNet
-    """
+def resnet18_1(pretrained=False, **kwargs):
+  
     model = ResNet(BasicBlock, [2, 2, 2, 2], **kwargs)
     if pretrained:
         pretrained_state_dict = model_zoo.load_url(model_urls['resnet18'])
