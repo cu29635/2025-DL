@@ -7,8 +7,11 @@ A PyTorch Implementation of [iCaRL: Incremental Classifier and Representation Le
 ## requirement
 
 python3.8.17
+
 Pytorch1.3.0 
+
 PyTorch 1.13.0 + CUDA 11.6
+
 numpy
 
 PIL
